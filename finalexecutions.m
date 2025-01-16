@@ -381,7 +381,7 @@ en_executiontable = table(en_executionmethod, en_numberexecutionsbytype);
 piechart(en_executiontable, "en_numberexecutionsbytype", "en_executionmethod")
 title('Likelihood of Execution Method for eighty to ninety population')
 
-%% Geo Map Illustrating Where Execution is Most Prevalent: try doing actual code for all states some have shortcuts 
+%% Geo Map Illustrating Where Execution is Most Prevalent
 
 % Making table with state longitude and latitudes (commenting repeated for
 % all states)
@@ -552,7 +552,7 @@ statelonglat = table(state, long, lat, sizedata); % Putting columns (variables) 
 geobubble(statelonglat.lat, statelonglat.long, statelonglat.sizedata) % Making map with bubbles of each state sized by occurence of execution in each state
 title("Prevalence of Execution by State in the United States")
 
-%% Calculating likelihood of execution based on race, gender, and age data differently - in report include states
+%% Calculating likelihood of execution based on race, gender, and age data differently 
  
 ageinput = input('What is the defendants age range given a) 20-30 b) 30-40 c) 40-50 d) 50-60 e)60-70 f) 70-80 g)80-90?', 's'); % Asking user for age of defendant
 raceinput = input('What is the defendants race given Black, White, Native American, Asian, or Latino?', 's'); % Asking user for race of defendant
