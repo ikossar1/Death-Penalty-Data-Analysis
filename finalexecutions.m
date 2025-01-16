@@ -21,12 +21,6 @@ executions.Properties.VariableNames(13) = "ForeignNationality";
 executions.Properties.VariableNames(14) = "County";
 executions.Properties.VariableNames(15) = "StateAbbreviation";
 
-%To do: 
-% 
-% 
-% finalize final report with all charts and put final stats into final prez (and check over)  
-% incorporate machine learning into slideshow 
-
 %% Percentages Based on Identity Characteristics 
 
 % Finding the occurence of White, Black, Native American, Latino, and Asian racial group in the table 
